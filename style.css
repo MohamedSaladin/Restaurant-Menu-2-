@@ -1,0 +1,141 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+
+header{
+    margin: 50px auto;
+    display: flex;
+}
+h1{
+font-size: 90px;
+    margin: 50px auto;
+    text-align: center;
+   
+
+}
+
+
+.contenier{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    display: flex;
+    gap: 2%;
+
+}
+h2{
+   
+    margin-top: 0;
+    display: flex;
+   
+    text-align: left;
+    justify-content: left;
+    align-items: end;
+  
+    border: 2px solid black;
+    border-right: none;
+    border-top: 0;
+    position: relative;
+    float: right;
+}
+   p{
+    display: inline-block;
+    padding: 5%;
+   }
+
+
+.beaf{
+    
+    justify-content: space-between; 
+    
+   
+    border: 2px solid black;
+    text-align: center;
+    width: 30%;
+    height: auto;
+    background-color:  rgba(243, 191, 191, 0.555);
+    margin: 30px;
+
+
+}
+.beaf h2{
+    background-color: rgba(231, 15, 15, 0.575);
+    padding: 0 8% ;
+}
+
+.chicken{
+    border: 2px solid black;
+    width: 30%;
+    height: auto;
+    background-color:  rgba(224, 248, 202, 0.555);
+margin: 30px;
+}
+.chicken h2{
+    background-color: rgba(139, 11, 243, 0.562);
+    color: aliceblue;
+    padding: 0 8% ;
+    
+
+}
+
+.fish{
+    border: 2px solid black;
+    width: 30%;
+    height: auto;
+    background-color:  rgba(172, 179, 243, 0.637);
+    margin: 30px;
+
+}
+.fish h2{
+    background-color: rgba(102, 203, 243, 0.514);
+    padding: 0 8% ;
+
+}
+
+
+
+
+@media (min-width: 767px) and (max-width: 991px){
+   .contenier{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+    margin: 20px auto;
+    flex-wrap: wrap;
+    
+   
+   }
+   .fish{
+    position: relative;
+    flex-grow: 1;
+   }
+}
+
+@media(max-width: 767px){
+    .body{
+        margin: auto ;
+
+    }
+    .contenier{
+        
+        display: block;
+        
+       
+    }
+    .contenier div{
+        width: 80%;
+        margin: 10px auto;
+    }
+
+
+}
